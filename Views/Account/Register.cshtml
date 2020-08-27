@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
+
+<link href="~/css/signin.css" rel="stylesheet" />
+
+<form class="form-signin" asp-controller="Account" asp-action="Login">
+    <img class="mb-4" src="~/images/logo.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+    <input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
+    <input type="email" class="form-control" name="email" placeholder="Email" required>
+    <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+</form>
